@@ -1,14 +1,4 @@
-import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 
-public class TrajectoryCompress {
-    static FileReader fr=null;
-    static FileWriter fw=null;
-    static BufferedWriter bw=null;
-    int count;
-    int ii=0;
-    double a,b;
     int a1[]=new int[300];
     static List<Node> list;
     static List<Node> compresslist;
